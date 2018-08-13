@@ -1,0 +1,7 @@
+scipy==1.1.0
+pytest==3.5.1
+numpy==1.11.0
+imbalanced_learn==0.3.3
+h5py==2.7.0
+imblearn==0.0
+scikit_learn==0.19.2
