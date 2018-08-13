@@ -1,0 +1,10 @@
+0:Neutral
+1:Drinking
+2:Sitting down
+3:Standing up
+4:Clapping
+5:Waving
+6:Jumping
+7:Phoning
+8:Bowing
+9:Falling

@@ -1,0 +1,6 @@
+0:Neutral
+1:Drinking
+2:Clapping
+3:Waving
+4:Jumping
+5:Bowing
