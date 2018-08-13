@@ -14,7 +14,7 @@ The detector follows a machine learning approach, meaning that a model must be t
 
 ### Training
 
-Currently, the training phase only supports the [NTU RGB-D dataset](http://rose1.ntu.edu.sg/datasets/actionrecognition.asp).  We provide a cleaned ntu dataset used for the pre-trained model and an additional dataset for improving accuracy [here](https://drive.google.com/drive/folders/1tuFotSre1283nWkWM4Neod4ZsVA_Cscx?usp=sharing).
+Currently, the training phase only supports the [NTU RGB-D dataset](http://rose1.ntu.edu.sg/datasets/actionrecognition.asp). Pre-trained models are already provided in the repository. To train again, please download for your own use the NTU RGB-D dataset.
 
 For accurate detection, one must first determine the best set of hyperparameters. For that, the script `cross_validation.py` can be used instead of manually selecting the parameters. However, the parameters search interval should be edited manually in the script (line `106` to `112`, see `np.arange(...)`. The scripts gives you the set of parameter among the interval achieving the best f1 score on the recognition task. To run it for the `trainig_set_1:
 
